@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>jhu
+        <title>FarmFresh-Farmers Market</title>
+        <!--code for the icon-->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- code for link of css file-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    </head>
+    <body>
+     
+      <!--header section -->  
+      <header  class="Header2">
+        <a href="#" class ="Logo"> <i class="fa fa-shopping-basket"></i>Agriverse</a>
+      <nav class="Navbar">
+        <a href="#Home">Home</a>
+        <a href="#Features">Features</a>
+        <a href="#Products">Products</a>
+        <a href="#Categories">Categories</a>
+        <a href="GS.html">PM Schemes</a>
+        <a href="calen.html">Calendar</a>
+       
+        
+
+
+    </nav>
+<div class="icons">
+    <div class="fa fa-bars"  id="menu-btn"></div>
+    <div class="fa fa-search"  id="search-btn"></div>
+    <div class="fa fa-shopping-cart"  id="cart-btn"></div>
+    <div class="fa fa-user"  id="login-btn"></div>
+    <div class="fab fa-twitter" id="twitter-btn"></div>
+    <div class="fab fa-instagram" id="insta-btn"></div>
+</div>
+<div class="language-switcher">
+    <i class="fa fa-globe"></i>
+    <select id="language-select">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+    </select>
+</div>
+<form class="Searching">
+    <input type="search here"  id="search-box" placeholder="search text here.......">
+    <label for="search-box" class="fa fa-search"></label>
+</form>
+
+
+<div class="Cart">
+    <div class="symbol">
+        <i class="fa fa-trash"></i>
+        <img src="images/wheat.png">
+         <div class="content">
+            <h3>WHEAT</h3>
+            <span class="Price">Rs200/-</span>
+             <span class="quantity">Qty : 5kg</span>   
+         </div>
+    </div>
+    <div class="symbol">
+        <i class="fa fa-trash"></i>
+        <img src="images/Barley.png">
+         <div class="content">
+            <h3>Barley</h3>
+            <span class="Price">Rs150/-</span>
+             <span class="quantity">Qty : 1kg</span>   
+         </div>
+    </div>
+
+    <div class="symbol">
+        <i class="fa fa-trash"></i>
+        <img src="images/mango.png">
+         <div class="content">
+            <h3>Mango</h3>
+            <span class="Price">Rs80/-</span>
+             <span class="quantity">Qty : 2kg</span>   
+         </div>
+    </div>
+<div class="TotalPrice">Total Price : 730 </div>
+<a href="#" class="btn">Checkout</a>
+</div>
+<form action="loginpage.php" method="POST" class ="Login-Page">
+    <h3>Login Page</h3>
+    <input type="e-mail" name="username" placeholder="Enter your mail id" class="box">
+    <input type="Password" name="password"placeholder="Your password" class="box">
+
+<p>Forget password <a href="#">Click here</a></p>
+<p>Don't have an account <a href="signup.html">Create now</a></p>
+    <input type="submit"  value="Login Now" class="btn">
+    
+</form>
+
+
+    </header>
+<!--Home page  section-->
+<section class="Home"  id="Home">
+    <div class="content">
+<h3><span>Farm-fresh goodness, just around the corner</span></h3>
+<p>Discover the freshest produce straight from our local farms at our farmer's market and make a healthy community.Join us in supporting local farmers and artisans while enjoying the vibrant community atmosphere and seasonal delights. Shop local, eat fresh, and experience the difference at Farm Fresh market. Visit us today!"</p>
+<a href="#" class="btn">Shop Now</a>
+    </div>
+</section>
+<!--FEATURES-->
+<section class="features" id="features">
+    <h1 class="heading">Our <span>Features</span> </h1>
+    
+    <div class="box-container">
+        <div class="box">
+            <img src="images/featureimg1.png">
+            <h3>organic vegetables and fruits</h3>
+
+<p>Nourish with nature's bounty: Organic vegetables and fruits thrive.</p>
+<a href="#" class="btn">Read more</a>
+
+        </div>
+        <div class="box">
+            <img src="images/featureimg2.png">
+            <h3>Free Delivery of Products</h3>
+
+<p>Delivery at no extra cost.</p>
+<a href="#" class="btn">Read more</a>
+
+        </div>
+        <div class="box">
+            <img src="images/featureimg3.png">
+            <h3>Easy Payments</h3>
+
+<p>Convenient payments made simple and easy.</p>
+<a href="#" class="btn">Read more</a>
+
+        </div>
+    </div>
+    
+    
+    
+    /</section>
+<!--PRODUCTS SECTION-->
+<section class="products" id="products">
+    <h1 class="heading">Our <span>Products</span></h1>
+<div class="swiper product-slider">
+
+<div class="swiper-wrapper">
+    <div class="swiper-slide box">
+    <img src="images//product1.png">
+    <h1>Fresh Orange</h1>
+    <div class="price">Rs50/---70/--</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+</div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+<div class="swiper-slide box">
+    <img src="images/product4.png">
+    <h1>Cabbage</h1>
+    <div class="price">Rs30/---60/--</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+</div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="swiper-slide box">
+    <img src="images/product6.png">
+    <h1>Avocado</h1>
+    <div class="price">Rs120/---170/--</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+</div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+
+<div class="swiper-slide box">
+    <img src="images/product7.png">
+    <h1>Fresh Carrot</h1>
+    <div class="price">Rs60/---100/--</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+</div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+<div class="swiper-slide box">
+    <img src="images/product8.png">
+    <h1>Lemons</h1>
+    <div class="price">Rs10/---20/--</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+</div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+<div class="swiper-slide box">
+    <img src="images/product2.png">
+    <h1>Onion</h1>
+    <div class="price">Rs35/---50/--</div>
+    <div class="stars">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half"></i>
+</div>
+<a href="#" class="btn">Add to Cart</a>
+</div>
+</div>
+</div>
+
+</section>
+<section class="footer">
+<div class="box-container">
+    <div class="box">
+<h3>Groco<i class="fa fa-shopping-basket"></i></h3>
+
+<p>Thanks for buying our products</p>
+<div class="share">
+    <a href="#" class ="fa-fa-facebook"></a>
+</div>
+</div>
+<div class="box">
+    <h3>Contact info</h3>
+    <a href="#" class="links"> <i class="fa fa-phone"></i>+91 7654309386</a>
+        <a href="#" class="links"> <i class="fa fa-envelope"></i>darshika123@gmail.com</a>
+        <a href="#" class="links"> <i class="fa-fa-map-marker"></i>Ujjain, M.P</a>
+    </div>
+    </div>
+
+    <div class="box">
+        <h3>Newsletter</h3>
+        <p>Happy Shopping ,Please subscribe our website</p>
+        <input type="email" placeholder="enter your mail">
+        <input type="submit" value="subcribe" class="btn">
+        
+        </div>
+    </section>
+</div>
+</section>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src ="script.js"></script>
+<script src="calen.js"></script>
+    </body>
+    </html>

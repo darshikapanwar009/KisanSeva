@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Produce Calendar</title>
+    <link rel="stylesheet" href="calen.css">
+    <script src="calen.js" defer></script>
+</head>
+<body>
+
+    <h1>🥦 Seasonal Produce Availability Calendar 🍎</h1>
+
+    <div class="calendar-container">
+        <div class="calendar">
+            <div class="month">
+                <button id="prev-month">❮</button>
+                <h2 id="month-year"></h2>
+                <button id="next-month">❯</button>
+            </div>
+            <div class="days" id="calendar-days"></div>
+        </div>
+
+        <div class="info-panel">
+            <h2>📅 Selected Date: <span id="selected-date">None</span></h2>
+            <h3>🍉 Fruits Available:</h3>
+            <ul id="fruit-list">Select a date</ul>
+            <h3>🥕 Vegetables Available:</h3>
+            <ul id="veggie-list">Select a date</ul>
+            <h3>🔥 Sale:</h3>
+            <p id="sale-info">No Sale</p>
+            <h3>🚜 Farmers Selling:</h3>
+            <ul id="farmer-list">Select a date</ul>
+        </div>
+    </div>
+
+</body>
+</html>
